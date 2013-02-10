@@ -1,0 +1,4 @@
+build
+dist
+src/boilerpipe.egg-info/
+src/boilerpipe/data/boilerpipe-1.2.0/

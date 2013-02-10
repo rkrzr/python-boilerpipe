@@ -11,6 +11,7 @@ InputSource        = jpype.JClass('org.xml.sax.InputSource')
 StringReader       = jpype.JClass('java.io.StringReader')
 HTMLHighlighter    = jpype.JClass('de.l3s.boilerpipe.sax.HTMLHighlighter')
 BoilerpipeSAXInput = jpype.JClass('de.l3s.boilerpipe.sax.BoilerpipeSAXInput')
+TextDocument       = jpype.JClass('de.l3s.boilerpipe.document.TextDocument')
 
 class Extractor(object):
     """

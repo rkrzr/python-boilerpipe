@@ -83,3 +83,6 @@ class Extractor(object):
             } for image in images
         ]
         return images
+
+    def getTextBlocks(self):
+    	return self.source.getTextBlocks()
